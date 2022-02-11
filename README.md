@@ -22,5 +22,3 @@ Block-OFF development is at stalemate with harrassment and discouragement. The p
 # License
 
 Block-OFF is [MIT licensed](https://github.com/ossd-sp22/block-off/blob/main/LICENSE).
-
-### TESSTING
