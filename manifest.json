@@ -1,1 +1,25 @@
-
+{
+    "manifest_version": 2,
+    "name": "Block Off",
+    "version": "1.0",
+  
+    "description": "Prevents a user from visiting certain social media sites when activated",
+    "icons": {
+      "48": "icons/beasts-48.png"
+    },
+    "permissions": [
+        "<all_urls>",
+        "webRequest"
+      ],
+      "content_scripts": [
+        {
+        "matches": ["<all_urls>"],
+          "js": ["blockOff.js"]
+        }
+      ],
+      "browser_action":{
+          "default_icon": "icons/block.png",
+          "default_title": "Block Off"
+      }
+  }
+  
