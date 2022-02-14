@@ -5,7 +5,7 @@
   
     "description": "Prevents a user from visiting certain social media sites when activated",
     "icons": {
-      "48": "icons/beasts-48.png"
+      "48": "icons/block.png"
     },
     "permissions": [
         "<all_urls>",
@@ -19,7 +19,8 @@
       ],
       "browser_action":{
           "default_icon": "icons/block.png",
-          "default_title": "Block Off"
-      }
+          "default_title": "Block Off",
+          "default_popup": "popup/restrict.html"
+        }
   }
   
