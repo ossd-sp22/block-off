@@ -8,13 +8,12 @@
       "48": "icons/block.png"
     },
     "permissions": [
-        "<all_urls>",
-        "webRequest"
+        "<all_urls>"
       ],
       "content_scripts": [
         {
         "matches": ["<all_urls>"],
-          "js": ["blockOff.js"]
+        "js": ["blockOff.js"]
         }
       ],
       "browser_action":{
