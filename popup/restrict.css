@@ -1,0 +1,19 @@
+html, body {
+  width: 120px;
+}
+
+.button {
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.restrict {
+  background-color: #FBFBC9;
+}
+
+.restrict:hover {
+  background-color: #EAEA9D;
+}
