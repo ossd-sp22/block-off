@@ -8,6 +8,7 @@ html, body {
   text-align: center;
   font-size: 20px;
   cursor: pointer;
+  border: none;
 }
 
 .restrict {
@@ -16,4 +17,12 @@ html, body {
 
 .restrict:hover {
   background-color: #EAEA9D;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
 }
